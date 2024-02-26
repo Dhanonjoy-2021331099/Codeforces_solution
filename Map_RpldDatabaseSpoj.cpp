@@ -1,3 +1,5 @@
+// https://www.spoj.com/problems/RPLD/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -23,6 +25,27 @@ int  main(){
         else 
         cout <<"Scenario #"<<i<<": " <<"impossible"<<endl; 
     }
-
-
 }
+
+
+/*
+
+Input:
+2
+2 4
+1 6102
+1 6103
+2 6102
+2 6103
+
+2 4
+1 6102
+1 6102
+2 6102
+2 6103
+
+Output:
+Scenario #1: possible
+Scenario #2: impossible
+
+*/
